@@ -5,6 +5,7 @@ const HomePage: React.FC = () => {
     <div>
       <h1>Welcome to the Home Page</h1>
       <p>This is the content of the home page.</p>
+      <p></p>
     </div>
   );
 }
