@@ -7,6 +7,8 @@ import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
 import logo from './Images/logo/main_logo.png';
 import './styles/App.css';
+import Sermons from './pages/Sermons';
+import GalleryPage from './pages/GalleryPage';
 
 const App: React.FC = () => {
   return (
@@ -20,6 +22,8 @@ const App: React.FC = () => {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route path="/about" component={AboutPage} />
+            <Route path="/sermons" component={Sermons} />
+            <Route path="/gallery" component={GalleryPage} />
             <Route path="/contact" component={ContactPage} />
           </Switch>
         </main>
