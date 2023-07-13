@@ -5,17 +5,16 @@ import HomePage from './components/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
-import logo from './Images/logo/main_logo.png';
 import './styles/App.css';
 import Sermons from './pages/Sermons';
 import GalleryPage from './pages/GalleryPage';
+import LiveStream from './pages/LiveStream';
 
 const App: React.FC = () => {
   return (
     <Router>
       <div className="container">
         <header className="header">
-          <img src={logo} alt="Logo" className="logo" />
           <Navbar />
         </header>
         <main className="main-content">
@@ -23,6 +22,7 @@ const App: React.FC = () => {
             <Route exact path="/" component={HomePage} />
             <Route path="/about" component={AboutPage} />
             <Route path="/sermons" component={Sermons} />
+            <Route path="/live" component={LiveStream} />
             <Route path="/gallery" component={GalleryPage} />
             <Route path="/contact" component={ContactPage} />
           </Switch>
