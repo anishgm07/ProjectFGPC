@@ -1,8 +1,11 @@
 import React from 'react';
+import CarouselSlider from '../components/CarouselSlider';
+
 
 const HomePage: React.FC = () => {
   return (
     <div>
+       <CarouselSlider />
       <h1>Welcome to the Home Page</h1>
       <p>This is the content of the home page.</p>
       <p> Enter His gates with thanksgiving and His courts with praise; give thanks to Him and praise His name.
