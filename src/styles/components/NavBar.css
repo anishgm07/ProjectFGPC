@@ -1,24 +1,35 @@
 .navbar {
     display: flex;
-    justify-content: center;
     background-color: #f0f0f0;
+    height: 30px;
   }
   
   .navbar_list {
-    list-style: none;
-    display: flex;
     padding: 0;
+    justify-content: center;
   }
   
   .navbar_item {
-    margin: 0 10px;
-  }
-  
-  .navbar_link {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+    margin: 0 20px;
   }
   
   /* Rest of your CSS styles */
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
   
+  .navbar a {
+    color: #272121;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    transition: color 0.3s ease;
+  }
+
+  .navbar a:hover {
+    color: #FF4D00;
+  }
