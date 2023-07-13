@@ -9,6 +9,7 @@ import './styles/App.css';
 import Sermons from './pages/Sermons';
 import GalleryPage from './pages/GalleryPage';
 import LiveStream from './pages/LiveStream';
+import Events from './pages/Events';
 
 const App: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const App: React.FC = () => {
             <Route path="/sermons" component={Sermons} />
             <Route path="/live" component={LiveStream} />
             <Route path="/gallery" component={GalleryPage} />
+            <Route path="/events" component={Events} />
             <Route path="/contact" component={ContactPage} />
           </Switch>
         </main>
