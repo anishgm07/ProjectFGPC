@@ -3,7 +3,7 @@
     background-color: #f0f0f0;
     height: 30px;
   }
-  
+
   .navbar_list {
     padding: 0;
     justify-content: center;
@@ -12,8 +12,7 @@
   .navbar_item {
     margin: 0 20px;
   }
-  
-  /* Rest of your CSS styles */
+
   .navbar ul {
     list-style: none;
     display: flex;

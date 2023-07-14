@@ -15,7 +15,7 @@ const CarouselSlider: React.FC = () => {
       showStatus={false}
       infiniteLoop={true}
       autoPlay={true}
-      interval={5000}
+      interval={10000}
       stopOnHover={true}
       showIndicators={false}
     >
