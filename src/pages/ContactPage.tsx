@@ -4,12 +4,12 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import EmailIcon from "@mui/icons-material/Email";
-import CarouselSlider from "../components/CarouselSlider1";
+import CarouselSlider from "../components/CarouselSlider";
 
 const ContactPage: React.FC = () => {
   return (
     <div>
-      <CarouselSlider1 />
+      <CarouselSlider />
       <h2>
         <span className="mod"> Contact Page</span>
       </h2>
