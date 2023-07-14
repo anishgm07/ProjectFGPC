@@ -1,11 +1,10 @@
-import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import Image1 from '../Images/bg/Clouds2.jpg';
-import Image2 from '../Images/bg/Clouds3.jpg';
-import Image3 from '../Images/bg/Clouds4.jpg';
-import '../styles/components/CarouselSlider.css'
-
+import React from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Image1 from "../Images/bg/Clouds2.jpg";
+import Image2 from "../Images/bg/Clouds3.jpg";
+import Image3 from "../Images/bg/Clouds4.jpg";
+import "../styles/components/CarouselSlider.css";
 
 const CarouselSlider: React.FC = () => {
   const images = [Image1, Image2, Image3];
@@ -27,6 +26,6 @@ const CarouselSlider: React.FC = () => {
       ))}
     </Carousel>
   );
-}
+};
 
 export default CarouselSlider;
