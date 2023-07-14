@@ -1,0 +1,173 @@
+h2 {
+  border: 1px solid #ddd;
+  width: 500%;
+  height: 40px;
+  border-radius: 0.3em;
+  padding-bottom: 10px;
+  position: relative;
+}
+/* div.border2 {
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+} */
+/* div.border3 {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  height: 40px;
+} */
+.my-label {
+  font-weight: bold;
+}
+
+.my-textbox {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+/* .my-label {
+  display: block;
+  margin-bottom: 10px;
+} */
+
+.my-radio {
+  /* Hide the default radio button */
+  display: none;
+}
+
+/* Style the custom radio button */
+.my-radio::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  margin-right: 8px;
+  vertical-align: middle;
+  background-color: transparent;
+}
+
+/* Style the custom radio button when selected */
+.my-radio:checked::before {
+  background-color: #333;
+}
+.contact-address {
+  font-family: "Roboto", sans-serif;
+}
+/* Select the button element */
+.buttonn {
+  /* Set the background color */
+  background-color: #4caf50;
+
+  /* Set the text color */
+  color: white;
+
+  /* Add some padding */
+  padding: 10px 20px;
+
+  /* Add a border */
+  border: none;
+
+  /* Add rounded corners */
+  border-radius: 4px;
+
+  /* Add some hover effect */
+  transition: background-color 0.3s ease;
+}
+
+/* Apply hover effect */
+.buttonn:hover {
+  background-color: #45a049;
+}
+
+.button1 {
+  height: 30px;
+  background-color: green;
+  border: none;
+  color: white;
+  width: 100px;
+  margin-top: 5px;
+}
+.button2 {
+  height: 30px;
+  background-color: red;
+  border: none;
+  color: white;
+  width: 100px;
+  margin-top: 5px;
+}
+img {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+label {
+  margin-left: 80px;
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+  color: blue;
+}
+input {
+  height: 25px;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+textarea {
+  margin-left: 20px;
+}
+
+.spans {
+  color: red;
+}
+.heading {
+  position: relative;
+  top: 5px;
+}
+.addresses {
+  position: relative;
+  bottom: 110px;
+}
+.mod {
+  color: red;
+}
+
+.padd {
+  padding: 10px;
+}
+.htmlForms {
+  padding-top: 30px;
+}
+
+.file {
+  position: relative;
+  right: 10px;
+}
+.bottoms {
+  position: relative;
+  top: 20px;
+}
+
+.text-danger {
+  color: red;
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  left: 560px;
+  bottom: 20px;
+}
+
+.email-icon {
+  color: red;
+  display: inline-block;
+  bottom: 20px;
+}
+
+.message-box {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
