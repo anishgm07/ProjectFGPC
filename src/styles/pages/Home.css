@@ -1,0 +1,46 @@
+.image-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(94, 94, 94);
+}
+
+.home-title {
+    position: absolute;
+    z-index: 1;
+  }
+
+
+  .home-title h2 {
+    font-family: 'Broken', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    animation-name: fadeInAnimation;
+    animation-duration: 3s;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+@font-face {
+    font-family: 'Broken';
+    src: url('../../fonts/Broken.ttf') format('truetype'); /* Adjust the path as needed */
+    font-weight: bold;
+    font-style: normal;
+}
