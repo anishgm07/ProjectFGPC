@@ -10,6 +10,7 @@ import Sermons from './pages/Sermons';
 import GalleryPage from './pages/GalleryPage';
 import LiveStream from './pages/LiveStream';
 import Events from './pages/Events';
+import ScrollTop from '../src/components/ScrollTop'
 
 const App: React.FC = () => {
   return (
@@ -29,10 +30,11 @@ const App: React.FC = () => {
             <Route path="/contact" component={ContactPage} />
           </Switch>
         </main>
+        <ScrollTop window={window} /> 
         <Footer />
       </div>
     </Router>
   );
-}
+};
 
 export default App;
