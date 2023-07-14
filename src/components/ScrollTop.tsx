@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Fab from '@mui/material/Fab';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import useScrollTrigger from '@mui/material/useScrollTrigger';
 
 interface ScrollTopProps {
   window: Window & typeof globalThis;

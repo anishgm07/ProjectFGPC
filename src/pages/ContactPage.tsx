@@ -4,23 +4,19 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import EmailIcon from "@mui/icons-material/Email";
-import CarouselSlider from "../components/CarouselSlider";
+import MapComponent from '../components/MapComponent'
 
 const ContactPage: React.FC = () => {
   return (
     <div>
-      <CarouselSlider />
-      <h2>
-        <span className="mod"> Contact Page</span>
-      </h2>
-
+      <MapComponent />
       <div className="border2">
         <h2>Contact Address:</h2>
         <p className="contact-address">
           Full Gospel Pentecostal church, 174- church street,
         </p>
         <p className="contact-address">
-          Vetturnimadam (P.O), Nagercoil â€“ 629003
+          Vetturnimadam (P.O), Nagercoil â€? 629003
         </p>
         <p className="contact-address">Kanyakumari District, Tamilnadu.</p>
         <p>
