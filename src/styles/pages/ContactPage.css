@@ -1,6 +1,4 @@
 h2 {
-  border: 1px solid #ddd;
-  width: 500%;
   height: 40px;
   border-radius: 0.3em;
   padding-bottom: 10px;
@@ -129,9 +127,6 @@ textarea {
 .addresses {
   position: relative;
   bottom: 110px;
-}
-.mod {
-  color: red;
 }
 
 .padd {
