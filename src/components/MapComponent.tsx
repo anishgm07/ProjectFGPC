@@ -14,7 +14,7 @@ const defaultCenter = {
 };
 
 // Set the initial zoom level
-const defaultZoom = 20;
+const defaultZoom = 8;
 
 const MapComponent: React.FC = () => {
   return (
