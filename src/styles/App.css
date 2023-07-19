@@ -20,7 +20,7 @@
   background-color: #111;
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 10;
   transition: 0.5s;
 }
 
@@ -48,3 +48,4 @@
 .footer p {
   font-size: 14px;
 }
+
