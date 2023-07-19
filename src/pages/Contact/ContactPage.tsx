@@ -1,10 +1,10 @@
-import "../styles/pages/ContactPage.css";
+import "./ContactPage.css";
 import React from "react";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import EmailIcon from "@mui/icons-material/Email";
-import MapComponent from '../components/MapComponent'
+import MapComponent from '../../components/MapComponent/MapComponent'
 
 const ContactPage: React.FC = () => {
   return (
@@ -27,23 +27,6 @@ const ContactPage: React.FC = () => {
           <a href="tel:+91-9790526876">+91-9790526876</a>
         </p>
         <div>
-          <label className="my-label">Name:</label>
-          <input type="text" className="my-textbox" /> <br></br>
-          <label className="my-label">Gender:</label>
-          <input type="radio" name="gender" value="M" />
-          <input type="radio" name="gender" value="F" />
-          <br></br>
-        </div>
-        <div>
-          <label htmlFor="Email">
-            Email <span className="spans">*</span>
-          </label>
-          <input type="Email" name="email" id="Email" />
-          <br></br>
-          <label htmlFor="contact">
-            Contact <span className="spans">*</span>
-          </label>
-          <input type="text" name="contact" id="contact" />
           <br></br>
           <input type="textarea" name="message" id="message" />
           <br></br>
